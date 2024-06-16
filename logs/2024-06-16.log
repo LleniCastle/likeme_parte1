@@ -1,0 +1,8 @@
+
+Started GET / for :: ::1 at Sun Jun 16 2024 12:22:19 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 18 ms Request ID: [24f4e42c-962d-43b0-b9d9-09540b5d346c]
+
+Started GET /favicon.ico for :: ::1 at Sun Jun 16 2024 12:22:19 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 5 ms Request ID: [63f6626a-55da-4212-8c2c-e86c15c6d8e3]

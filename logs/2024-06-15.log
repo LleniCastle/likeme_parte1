@@ -1,0 +1,32 @@
+
+Started GET /posts for :: ::1 at Sat Jun 15 2024 12:11:16 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 14 ms Request ID: [153671dd-6b1d-416f-ac16-6ddc1e94fb97]
+
+Started GET /posts for :: ::1 at Sat Jun 15 2024 12:11:40 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 3 ms Request ID: [b1863790-0d62-4ca7-92eb-fcca4e0a2dc2]
+
+Started GET / for :: ::1 at Sat Jun 15 2024 14:19:50 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 13 ms Request ID: [2d1e7330-4cda-454c-8427-a4d331b5b8c5]
+
+Started GET /favicon.ico for :: ::1 at Sat Jun 15 2024 14:19:50 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 7 ms Request ID: [183e7334-b08b-4e16-90b6-5cbe99915dfc]
+
+Started GET /posts for :: ::1 at Sat Jun 15 2024 14:19:56 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 79 ms Request ID: [006c07c7-a5b4-42cd-a703-aebe825ea83c]
+
+Started GET /posts for :: ::1 at Sat Jun 15 2024 14:24:50 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 73 ms Request ID: [91bf1a22-5ab8-4344-8307-f8f2c9db8733]
+
+Started GET /posts for :: ::1 at Sat Jun 15 2024 14:25:12 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 76 ms Request ID: [4cb4aced-0a0a-4557-9e04-98107d2745b7]
+
+Started GET /posts for :: ::1 at Sat Jun 15 2024 14:33:22 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 91 ms Request ID: [a7852986-ea4f-4f16-9c2f-3e5e3e17b630]
