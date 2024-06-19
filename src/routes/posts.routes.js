@@ -8,8 +8,6 @@ import {
 
 const router = Router();
 
-router.get('/', hola);
-
 router.get('/posts', getAllPost);
 
 router.post('/posts', createPost);
