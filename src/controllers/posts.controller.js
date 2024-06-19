@@ -1,9 +1,5 @@
 import { createPostModel, getAllPostModel } from '../models/posts.model.js';
 
-export const hola = (req, res) => {
-    res.send('Hello World');
-};
-
 export const getAllPost = async (req, res) => {
     try {
         const posts = await getAllPostModel();
