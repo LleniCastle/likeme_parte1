@@ -4,7 +4,7 @@ import pool from '../../database/config.js';
 
 //GET ALL POSTS
 export const getAllPostModel = async () => {
-    const sqlQuery ={ text: 'SELECT * FROM public.posts'};
+    const sqlQuery ={ text: 'SELECT * FROM posts'};
     try {
         const result = await pool.query(sqlQuery);
         console.log(result.rows);
