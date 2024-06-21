@@ -3,12 +3,13 @@ import { Router } from 'express';
 import {
     getAllPost,
     createPost,
-    hola
 } from '../controllers/posts.controller.js';
 
 const router = Router();
 
-router.get('/', hola);
+router.get('/', (req, res) => {
+    res.status(200).send('raiz');
+});
 
 router.get('/posts', getAllPost);
 
