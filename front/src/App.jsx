@@ -17,21 +17,33 @@ function App() {
   };
 
   const agregarPost = async () => {
-    const post = { titulo, img: imgSrc, descripcion, like:0 };
+    const post = { titulo, img: imgSrc, descripcion, likes:0 };
     await axios.post(urlBaseServer + "/posts", post);
     getPosts();
   };
 
   // este método se utilizará en el siguiente desafío
   const like = async (id) => {
-    await axios.put(urlBaseServer + `/posts/like/${id}`);
-    getPosts();
+    try {
+      console.log(`Liking post with id ${id}`);
+      await axios.put(urlBaseServer + `/posts/like/${id}`);
+      console.log("Post liked");
+      getPosts();
+    } catch (error) {
+      console.error(`Error liking post with id ${id}:`, error);
+    }
   };
 
   // este método se utilizará en el siguiente desafío
   const eliminarPost = async (id) => {
-    await axios.delete(urlBaseServer + `/posts/${id}`);
-    getPosts();
+    try {
+      console.log(`Deleting post with id ${id}`);
+      await axios.delete(urlBaseServer + `/posts/${id}`);
+      console.log("Post deleted");
+      getPosts();
+    } catch (error) {
+      console.error(`Error deleting post with id ${id}:`, error);
+    }
   };
 
   useEffect(() => {
