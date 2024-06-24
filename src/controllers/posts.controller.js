@@ -47,6 +47,7 @@ export const deletePost = async (req, res) => {
 
 export const likePost = async (req, res) => {
     try {
+        const {id} = req.params;
         const post = await likePostModel(req.params.id);
         res.json(post);
     } catch (error) {
